@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // built-in Google font
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] }); // safe font
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Open Lovable",
