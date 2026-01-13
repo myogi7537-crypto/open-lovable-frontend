@@ -1,9 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    // turbo या wasm bindings हटाओ
-  },
-};
+l/** @type {import('next').NextConfig} */
+const nextConfig = {}
 
-module.exports = nextConfig;
+module.exports = nextConfig
