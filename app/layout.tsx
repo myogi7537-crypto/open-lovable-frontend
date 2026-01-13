@@ -2,14 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Open Lovable",
-  description: "Next.js app deployed on Vercel",
+  description: "Frontend app",
 };
 
 export default function RootLayout({
